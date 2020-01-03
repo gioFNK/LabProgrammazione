@@ -1,0 +1,1 @@
+-isystem C:/Qt/5.9.9/winrt_x86_msvc2017/include -isystem C:/Qt/5.9.9/winrt_x86_msvc2017/include/QtCore -isystem C:/Qt/5.9.9/winrt_x86_msvc2017/./mkspecs/winrt-x86-msvc2017 -isystem C:/Qt/5.9.9/winrt_x86_msvc2017/include/QtWidgets -isystem C:/Qt/5.9.9/winrt_x86_msvc2017/include/QtGui -isystem C:/Qt/5.9.9/winrt_x86_msvc2017/include/QtANGLE 
