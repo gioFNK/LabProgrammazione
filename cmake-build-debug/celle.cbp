@@ -106,10 +106,28 @@
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/Cell.h">
 			<Option target="celle"/>
 		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/Formula.cpp">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/Formula.h">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaMax.cpp">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaMax.h">
+			<Option target="celle"/>
+		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/Observer.h">
 			<Option target="celle"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/Subject.h">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/Table.cpp">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/Table.h">
 			<Option target="celle"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/main.cpp">

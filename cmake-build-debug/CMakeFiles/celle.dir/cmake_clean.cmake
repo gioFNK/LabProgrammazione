@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/celle.dir/main.cpp.obj"
   "CMakeFiles/celle.dir/Cell.cpp.obj"
+  "CMakeFiles/celle.dir/Formula.cpp.obj"
+  "CMakeFiles/celle.dir/FormulaMax.cpp.obj"
+  "CMakeFiles/celle.dir/Table.cpp.obj"
   "celle.pdb"
   "celle.exe"
   "celle.exe.manifest"

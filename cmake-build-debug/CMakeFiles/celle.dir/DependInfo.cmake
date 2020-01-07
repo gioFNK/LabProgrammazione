@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/giofn/OneDrive/Desktop/celle/Cell.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/Cell.cpp.obj"
+  "C:/Users/giofn/OneDrive/Desktop/celle/Formula.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/Formula.cpp.obj"
+  "C:/Users/giofn/OneDrive/Desktop/celle/FormulaMax.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/FormulaMax.cpp.obj"
+  "C:/Users/giofn/OneDrive/Desktop/celle/Table.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/Table.cpp.obj"
   "C:/Users/giofn/OneDrive/Desktop/celle/main.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

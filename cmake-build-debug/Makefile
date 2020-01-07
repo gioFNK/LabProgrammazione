@@ -149,6 +149,87 @@ Cell.cpp.s:
 	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/Cell.cpp.s
 .PHONY : Cell.cpp.s
 
+Formula.obj: Formula.cpp.obj
+
+.PHONY : Formula.obj
+
+# target to build an object file
+Formula.cpp.obj:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/Formula.cpp.obj
+.PHONY : Formula.cpp.obj
+
+Formula.i: Formula.cpp.i
+
+.PHONY : Formula.i
+
+# target to preprocess a source file
+Formula.cpp.i:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/Formula.cpp.i
+.PHONY : Formula.cpp.i
+
+Formula.s: Formula.cpp.s
+
+.PHONY : Formula.s
+
+# target to generate assembly for a file
+Formula.cpp.s:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/Formula.cpp.s
+.PHONY : Formula.cpp.s
+
+FormulaMax.obj: FormulaMax.cpp.obj
+
+.PHONY : FormulaMax.obj
+
+# target to build an object file
+FormulaMax.cpp.obj:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMax.cpp.obj
+.PHONY : FormulaMax.cpp.obj
+
+FormulaMax.i: FormulaMax.cpp.i
+
+.PHONY : FormulaMax.i
+
+# target to preprocess a source file
+FormulaMax.cpp.i:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMax.cpp.i
+.PHONY : FormulaMax.cpp.i
+
+FormulaMax.s: FormulaMax.cpp.s
+
+.PHONY : FormulaMax.s
+
+# target to generate assembly for a file
+FormulaMax.cpp.s:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMax.cpp.s
+.PHONY : FormulaMax.cpp.s
+
+Table.obj: Table.cpp.obj
+
+.PHONY : Table.obj
+
+# target to build an object file
+Table.cpp.obj:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/Table.cpp.obj
+.PHONY : Table.cpp.obj
+
+Table.i: Table.cpp.i
+
+.PHONY : Table.i
+
+# target to preprocess a source file
+Table.cpp.i:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/Table.cpp.i
+.PHONY : Table.cpp.i
+
+Table.s: Table.cpp.s
+
+.PHONY : Table.s
+
+# target to generate assembly for a file
+Table.cpp.s:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/Table.cpp.s
+.PHONY : Table.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +269,15 @@ help:
 	@echo ... Cell.obj
 	@echo ... Cell.i
 	@echo ... Cell.s
+	@echo ... Formula.obj
+	@echo ... Formula.i
+	@echo ... Formula.s
+	@echo ... FormulaMax.obj
+	@echo ... FormulaMax.i
+	@echo ... FormulaMax.s
+	@echo ... Table.obj
+	@echo ... Table.i
+	@echo ... Table.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
