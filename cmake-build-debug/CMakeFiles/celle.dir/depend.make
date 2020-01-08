@@ -19,6 +19,27 @@ CMakeFiles/celle.dir/FormulaMax.cpp.obj: ../FormulaMax.h
 CMakeFiles/celle.dir/FormulaMax.cpp.obj: ../Observer.h
 CMakeFiles/celle.dir/FormulaMax.cpp.obj: ../Subject.h
 
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: ../Cell.h
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: ../Formula.h
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: ../FormulaMean.cpp
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: ../FormulaMean.h
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: ../Observer.h
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: ../Subject.h
+
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: ../Cell.h
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: ../Formula.h
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: ../FormulaMin.cpp
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: ../FormulaMin.h
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: ../Observer.h
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: ../Subject.h
+
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: ../Cell.h
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: ../Formula.h
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: ../FormulaSum.cpp
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: ../FormulaSum.h
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: ../Observer.h
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: ../Subject.h
+
 CMakeFiles/celle.dir/Table.cpp.obj: ../Cell.h
 CMakeFiles/celle.dir/Table.cpp.obj: ../Observer.h
 CMakeFiles/celle.dir/Table.cpp.obj: ../Subject.h
@@ -28,6 +49,9 @@ CMakeFiles/celle.dir/Table.cpp.obj: ../Table.h
 CMakeFiles/celle.dir/main.cpp.obj: ../Cell.h
 CMakeFiles/celle.dir/main.cpp.obj: ../Formula.h
 CMakeFiles/celle.dir/main.cpp.obj: ../FormulaMax.h
+CMakeFiles/celle.dir/main.cpp.obj: ../FormulaMean.h
+CMakeFiles/celle.dir/main.cpp.obj: ../FormulaMin.h
+CMakeFiles/celle.dir/main.cpp.obj: ../FormulaSum.h
 CMakeFiles/celle.dir/main.cpp.obj: ../Observer.h
 CMakeFiles/celle.dir/main.cpp.obj: ../Subject.h
 CMakeFiles/celle.dir/main.cpp.obj: ../Table.h

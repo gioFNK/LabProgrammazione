@@ -118,6 +118,24 @@
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaMax.h">
 			<Option target="celle"/>
 		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaMean.cpp">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaMean.h">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaMin.cpp">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaMin.h">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaSum.cpp">
+			<Option target="celle"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/FormulaSum.h">
+			<Option target="celle"/>
+		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/Observer.h">
 			<Option target="celle"/>
 		</Unit>

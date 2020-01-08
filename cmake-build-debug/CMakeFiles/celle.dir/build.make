@@ -126,13 +126,58 @@ CMakeFiles/celle.dir/Table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/celle.dir/Table.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\celle\Table.cpp -o CMakeFiles\celle.dir\Table.cpp.s
 
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: CMakeFiles/celle.dir/flags.make
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
+CMakeFiles/celle.dir/FormulaMean.cpp.obj: ../FormulaMean.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/celle.dir/FormulaMean.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\FormulaMean.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\FormulaMean.cpp
+
+CMakeFiles/celle.dir/FormulaMean.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/celle.dir/FormulaMean.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\giofn\OneDrive\Desktop\celle\FormulaMean.cpp > CMakeFiles\celle.dir\FormulaMean.cpp.i
+
+CMakeFiles/celle.dir/FormulaMean.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/celle.dir/FormulaMean.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\celle\FormulaMean.cpp -o CMakeFiles\celle.dir\FormulaMean.cpp.s
+
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: CMakeFiles/celle.dir/flags.make
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
+CMakeFiles/celle.dir/FormulaMin.cpp.obj: ../FormulaMin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/celle.dir/FormulaMin.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\FormulaMin.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\FormulaMin.cpp
+
+CMakeFiles/celle.dir/FormulaMin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/celle.dir/FormulaMin.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\giofn\OneDrive\Desktop\celle\FormulaMin.cpp > CMakeFiles\celle.dir\FormulaMin.cpp.i
+
+CMakeFiles/celle.dir/FormulaMin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/celle.dir/FormulaMin.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\celle\FormulaMin.cpp -o CMakeFiles\celle.dir\FormulaMin.cpp.s
+
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: CMakeFiles/celle.dir/flags.make
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
+CMakeFiles/celle.dir/FormulaSum.cpp.obj: ../FormulaSum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/celle.dir/FormulaSum.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\FormulaSum.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\FormulaSum.cpp
+
+CMakeFiles/celle.dir/FormulaSum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/celle.dir/FormulaSum.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\giofn\OneDrive\Desktop\celle\FormulaSum.cpp > CMakeFiles\celle.dir\FormulaSum.cpp.i
+
+CMakeFiles/celle.dir/FormulaSum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/celle.dir/FormulaSum.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\celle\FormulaSum.cpp -o CMakeFiles\celle.dir\FormulaSum.cpp.s
+
 # Object files for target celle
 celle_OBJECTS = \
 "CMakeFiles/celle.dir/main.cpp.obj" \
 "CMakeFiles/celle.dir/Cell.cpp.obj" \
 "CMakeFiles/celle.dir/Formula.cpp.obj" \
 "CMakeFiles/celle.dir/FormulaMax.cpp.obj" \
-"CMakeFiles/celle.dir/Table.cpp.obj"
+"CMakeFiles/celle.dir/Table.cpp.obj" \
+"CMakeFiles/celle.dir/FormulaMean.cpp.obj" \
+"CMakeFiles/celle.dir/FormulaMin.cpp.obj" \
+"CMakeFiles/celle.dir/FormulaSum.cpp.obj"
 
 # External object files for target celle
 celle_EXTERNAL_OBJECTS =
@@ -142,6 +187,9 @@ celle.exe: CMakeFiles/celle.dir/Cell.cpp.obj
 celle.exe: CMakeFiles/celle.dir/Formula.cpp.obj
 celle.exe: CMakeFiles/celle.dir/FormulaMax.cpp.obj
 celle.exe: CMakeFiles/celle.dir/Table.cpp.obj
+celle.exe: CMakeFiles/celle.dir/FormulaMean.cpp.obj
+celle.exe: CMakeFiles/celle.dir/FormulaMin.cpp.obj
+celle.exe: CMakeFiles/celle.dir/FormulaSum.cpp.obj
 celle.exe: CMakeFiles/celle.dir/build.make
 celle.exe: C:/Qt/5.9.9/winrt_x86_msvc2017/lib/Qt5Widgetsd.lib
 celle.exe: C:/Qt/5.9.9/winrt_x86_msvc2017/lib/Qt5Guid.lib
@@ -149,7 +197,7 @@ celle.exe: C:/Qt/5.9.9/winrt_x86_msvc2017/lib/Qt5Cored.lib
 celle.exe: CMakeFiles/celle.dir/linklibs.rsp
 celle.exe: CMakeFiles/celle.dir/objects1.rsp
 celle.exe: CMakeFiles/celle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable celle.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable celle.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\celle.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -19,6 +19,27 @@ CMakeFiles/celle.dir/FormulaMax.cpp.obj
  C:/Users/giofn/OneDrive/Desktop/celle/FormulaMax.h
  C:/Users/giofn/OneDrive/Desktop/celle/Observer.h
  C:/Users/giofn/OneDrive/Desktop/celle/Subject.h
+CMakeFiles/celle.dir/FormulaMean.cpp.obj
+ C:/Users/giofn/OneDrive/Desktop/celle/Cell.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Formula.h
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaMean.cpp
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaMean.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Observer.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Subject.h
+CMakeFiles/celle.dir/FormulaMin.cpp.obj
+ C:/Users/giofn/OneDrive/Desktop/celle/Cell.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Formula.h
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaMin.cpp
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaMin.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Observer.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Subject.h
+CMakeFiles/celle.dir/FormulaSum.cpp.obj
+ C:/Users/giofn/OneDrive/Desktop/celle/Cell.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Formula.h
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaSum.cpp
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaSum.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Observer.h
+ C:/Users/giofn/OneDrive/Desktop/celle/Subject.h
 CMakeFiles/celle.dir/Table.cpp.obj
  C:/Users/giofn/OneDrive/Desktop/celle/Cell.h
  C:/Users/giofn/OneDrive/Desktop/celle/Observer.h
@@ -29,6 +50,9 @@ CMakeFiles/celle.dir/main.cpp.obj
  C:/Users/giofn/OneDrive/Desktop/celle/Cell.h
  C:/Users/giofn/OneDrive/Desktop/celle/Formula.h
  C:/Users/giofn/OneDrive/Desktop/celle/FormulaMax.h
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaMean.h
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaMin.h
+ C:/Users/giofn/OneDrive/Desktop/celle/FormulaSum.h
  C:/Users/giofn/OneDrive/Desktop/celle/Observer.h
  C:/Users/giofn/OneDrive/Desktop/celle/Subject.h
  C:/Users/giofn/OneDrive/Desktop/celle/Table.h

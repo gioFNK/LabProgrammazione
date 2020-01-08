@@ -203,6 +203,87 @@ FormulaMax.cpp.s:
 	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMax.cpp.s
 .PHONY : FormulaMax.cpp.s
 
+FormulaMean.obj: FormulaMean.cpp.obj
+
+.PHONY : FormulaMean.obj
+
+# target to build an object file
+FormulaMean.cpp.obj:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMean.cpp.obj
+.PHONY : FormulaMean.cpp.obj
+
+FormulaMean.i: FormulaMean.cpp.i
+
+.PHONY : FormulaMean.i
+
+# target to preprocess a source file
+FormulaMean.cpp.i:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMean.cpp.i
+.PHONY : FormulaMean.cpp.i
+
+FormulaMean.s: FormulaMean.cpp.s
+
+.PHONY : FormulaMean.s
+
+# target to generate assembly for a file
+FormulaMean.cpp.s:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMean.cpp.s
+.PHONY : FormulaMean.cpp.s
+
+FormulaMin.obj: FormulaMin.cpp.obj
+
+.PHONY : FormulaMin.obj
+
+# target to build an object file
+FormulaMin.cpp.obj:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMin.cpp.obj
+.PHONY : FormulaMin.cpp.obj
+
+FormulaMin.i: FormulaMin.cpp.i
+
+.PHONY : FormulaMin.i
+
+# target to preprocess a source file
+FormulaMin.cpp.i:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMin.cpp.i
+.PHONY : FormulaMin.cpp.i
+
+FormulaMin.s: FormulaMin.cpp.s
+
+.PHONY : FormulaMin.s
+
+# target to generate assembly for a file
+FormulaMin.cpp.s:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaMin.cpp.s
+.PHONY : FormulaMin.cpp.s
+
+FormulaSum.obj: FormulaSum.cpp.obj
+
+.PHONY : FormulaSum.obj
+
+# target to build an object file
+FormulaSum.cpp.obj:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaSum.cpp.obj
+.PHONY : FormulaSum.cpp.obj
+
+FormulaSum.i: FormulaSum.cpp.i
+
+.PHONY : FormulaSum.i
+
+# target to preprocess a source file
+FormulaSum.cpp.i:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaSum.cpp.i
+.PHONY : FormulaSum.cpp.i
+
+FormulaSum.s: FormulaSum.cpp.s
+
+.PHONY : FormulaSum.s
+
+# target to generate assembly for a file
+FormulaSum.cpp.s:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/FormulaSum.cpp.s
+.PHONY : FormulaSum.cpp.s
+
 Table.obj: Table.cpp.obj
 
 .PHONY : Table.obj
@@ -275,6 +356,15 @@ help:
 	@echo ... FormulaMax.obj
 	@echo ... FormulaMax.i
 	@echo ... FormulaMax.s
+	@echo ... FormulaMean.obj
+	@echo ... FormulaMean.i
+	@echo ... FormulaMean.s
+	@echo ... FormulaMin.obj
+	@echo ... FormulaMin.i
+	@echo ... FormulaMin.s
+	@echo ... FormulaSum.obj
+	@echo ... FormulaSum.i
+	@echo ... FormulaSum.s
 	@echo ... Table.obj
 	@echo ... Table.i
 	@echo ... Table.s
