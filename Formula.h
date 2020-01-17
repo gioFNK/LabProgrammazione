@@ -27,7 +27,7 @@ public:
     void subscribe(Subject* cell) override ;
     void unsubscribe(Subject* cell)  override ;
 
-    bool searchCell(Subject* cell);
+    testing::AssertionResult searchCell(Subject* cell);
 
 protected:
     std::list<Subject*> cells;

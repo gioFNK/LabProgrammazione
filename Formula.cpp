@@ -4,6 +4,7 @@
 
 
 #include "Formula.h"
+#include "test/lib/googletest/include/gtest/gtest.h"
 #include <algorithm>
 
 
@@ -18,7 +19,7 @@ void Formula::unsubscribe(Subject *cell) {
 }
 
 
-bool Formula::searchCell(Subject *cell) {
+testing::AssertionResult Formula::searchCell(Subject *cell) {
     auto itr= std::find(cells.begin(),cells.end(),cell);
     if(itr!=cells.end())
         return true;

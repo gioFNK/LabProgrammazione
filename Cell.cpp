@@ -4,6 +4,7 @@
 
 
 #include "Cell.h"
+#include "test/lib/googletest/include/gtest/gtest.h"
 
 void Cell::attach(Observer * formula) {
     if(!searchFormula(formula)) {
@@ -26,7 +27,7 @@ void Cell::notify() {
         (*itr)->update();
 }
 
-bool Cell::searchFormula(Observer* formula){
+testing::AssertionResult Cell::searchFormula(Observer* formula){
     for (auto itr = formule.begin(); itr != formule.end(); itr++) {
         if((*itr)==formula)
             return true;

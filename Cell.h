@@ -37,7 +37,7 @@ public:
         return formule;
     }
 
-    bool searchFormula(Observer* formula);
+    testing::AssertionResult searchFormula(Observer* formula);
 
 
 private:
