@@ -169,17 +169,17 @@ celle/fast:
 .PHONY : celle/fast
 
 #=============================================================================
-# Target rules for targets named runAllTests
+# Target rules for targets named Google_Tests_run
 
 # Build rule for target.
-runAllTests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 runAllTests
-.PHONY : runAllTests
+Google_Tests_run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Google_Tests_run
+.PHONY : Google_Tests_run
 
 # fast build rule for target.
-runAllTests/fast:
-	$(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/build
-.PHONY : runAllTests/fast
+Google_Tests_run/fast:
+	$(MAKE) -f test\CMakeFiles\Google_Tests_run.dir\build.make test/CMakeFiles/Google_Tests_run.dir/build
+.PHONY : Google_Tests_run/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -191,7 +191,7 @@ gmock_main: cmake_check_build_system
 
 # fast build rule for target.
 gmock_main/fast:
-	$(MAKE) -f test\lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+	$(MAKE) -f test\lib\googlemock\CMakeFiles\gmock_main.dir\build.make test/lib/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 #=============================================================================
@@ -204,7 +204,7 @@ gmock: cmake_check_build_system
 
 # fast build rule for target.
 gmock/fast:
-	$(MAKE) -f test\lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+	$(MAKE) -f test\lib\googlemock\CMakeFiles\gmock.dir\build.make test/lib/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 #=============================================================================
@@ -217,7 +217,7 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
-	$(MAKE) -f test\lib\googletest-master\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
+	$(MAKE) -f test\lib\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 #=============================================================================
@@ -230,7 +230,7 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
-	$(MAKE) -f test\lib\googletest-master\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build
+	$(MAKE) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 Cell.obj: Cell.cpp.obj
@@ -462,7 +462,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... list_install_components
 	@echo ... install/strip
-	@echo ... runAllTests
+	@echo ... Google_Tests_run
 	@echo ... gmock_main
 	@echo ... gmock
 	@echo ... gtest

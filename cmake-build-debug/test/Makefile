@@ -156,19 +156,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/runAllTests.dir/rule:
-	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/CMakeFiles/runAllTests.dir/rule
-.PHONY : test/CMakeFiles/runAllTests.dir/rule
+test/CMakeFiles/Google_Tests_run.dir/rule:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/CMakeFiles/Google_Tests_run.dir/rule
+.PHONY : test/CMakeFiles/Google_Tests_run.dir/rule
 
 # Convenience name for target.
-runAllTests: test/CMakeFiles/runAllTests.dir/rule
+Google_Tests_run: test/CMakeFiles/Google_Tests_run.dir/rule
 
-.PHONY : runAllTests
+.PHONY : Google_Tests_run
 
 # fast build rule for target.
-runAllTests/fast:
-	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/build
-.PHONY : runAllTests/fast
+Google_Tests_run/fast:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\CMakeFiles\Google_Tests_run.dir\build.make test/CMakeFiles/Google_Tests_run.dir/build
+.PHONY : Google_Tests_run/fast
 
 runAllTests.obj: runAllTests.cpp.obj
 
@@ -176,7 +176,7 @@ runAllTests.obj: runAllTests.cpp.obj
 
 # target to build an object file
 runAllTests.cpp.obj:
-	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\CMakeFiles\Google_Tests_run.dir\build.make test/CMakeFiles/Google_Tests_run.dir/runAllTests.cpp.obj
 .PHONY : runAllTests.cpp.obj
 
 runAllTests.i: runAllTests.cpp.i
@@ -185,7 +185,7 @@ runAllTests.i: runAllTests.cpp.i
 
 # target to preprocess a source file
 runAllTests.cpp.i:
-	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\CMakeFiles\Google_Tests_run.dir\build.make test/CMakeFiles/Google_Tests_run.dir/runAllTests.cpp.i
 .PHONY : runAllTests.cpp.i
 
 runAllTests.s: runAllTests.cpp.s
@@ -194,7 +194,7 @@ runAllTests.s: runAllTests.cpp.s
 
 # target to generate assembly for a file
 runAllTests.cpp.s:
-	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\CMakeFiles\Google_Tests_run.dir\build.make test/CMakeFiles/Google_Tests_run.dir/runAllTests.cpp.s
 .PHONY : runAllTests.cpp.s
 
 # Help Target
@@ -204,7 +204,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... list_install_components
-	@echo ... runAllTests
+	@echo ... Google_Tests_run
 	@echo ... install/local
 	@echo ... install
 	@echo ... edit_cache

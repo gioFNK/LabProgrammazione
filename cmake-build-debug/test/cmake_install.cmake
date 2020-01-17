@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest-master/cmake_install.cmake")
+  include("C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/cmake_install.cmake")
 endif()
 

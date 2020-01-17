@@ -55,6 +55,16 @@ CMAKE_BINARY_DIR = C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -101,16 +111,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -155,18 +155,110 @@ depend:
 	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+test/lib/googletest/CMakeFiles/gtest.dir/rule:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/lib/googletest/CMakeFiles/gtest.dir/rule
+.PHONY : test/lib/googletest/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: test/lib/googletest/CMakeFiles/gtest.dir/rule
+
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\lib\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+# Convenience name for target.
+test/lib/googletest/CMakeFiles/gtest_main.dir/rule:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/lib/googletest/CMakeFiles/gtest_main.dir/rule
+.PHONY : test/lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+# Convenience name for target.
+gtest_main: test/lib/googletest/CMakeFiles/gtest_main.dir/rule
+
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+src/gtest-all.obj: src/gtest-all.cc.obj
+
+.PHONY : src/gtest-all.obj
+
+# target to build an object file
+src/gtest-all.cc.obj:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\lib\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
+.PHONY : src/gtest-all.cc.obj
+
+src/gtest-all.i: src/gtest-all.cc.i
+
+.PHONY : src/gtest-all.i
+
+# target to preprocess a source file
+src/gtest-all.cc.i:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\lib\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i
+.PHONY : src/gtest-all.cc.i
+
+src/gtest-all.s: src/gtest-all.cc.s
+
+.PHONY : src/gtest-all.s
+
+# target to generate assembly for a file
+src/gtest-all.cc.s:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\lib\googletest\CMakeFiles\gtest.dir\build.make test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s
+.PHONY : src/gtest-all.cc.s
+
+src/gtest_main.obj: src/gtest_main.cc.obj
+
+.PHONY : src/gtest_main.obj
+
+# target to build an object file
+src/gtest_main.cc.obj:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+.PHONY : src/gtest_main.cc.obj
+
+src/gtest_main.i: src/gtest_main.cc.i
+
+.PHONY : src/gtest_main.i
+
+# target to preprocess a source file
+src/gtest_main.cc.i:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+.PHONY : src/gtest_main.cc.i
+
+src/gtest_main.s: src/gtest_main.cc.s
+
+.PHONY : src/gtest_main.s
+
+# target to generate assembly for a file
+src/gtest_main.cc.s:
+	cd /d C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug && $(MAKE) -f test\lib\googletest\CMakeFiles\gtest_main.dir\build.make test/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+.PHONY : src/gtest_main.cc.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... list_install_components
+	@echo ... gtest
+	@echo ... gtest_main
 	@echo ... install/local
 	@echo ... install
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... list_install_components
 	@echo ... install/strip
+	@echo ... src/gtest-all.obj
+	@echo ... src/gtest-all.i
+	@echo ... src/gtest-all.s
+	@echo ... src/gtest_main.obj
+	@echo ... src/gtest_main.i
+	@echo ... src/gtest_main.s
 .PHONY : help
 
 
