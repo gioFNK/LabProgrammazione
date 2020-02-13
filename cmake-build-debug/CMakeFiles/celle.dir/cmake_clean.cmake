@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "ui_mainwindow.h"
+  "moc_mainwindow.cpp"
+  "CMakeFiles/celle.dir/mainwindow.cpp.obj"
   "CMakeFiles/celle.dir/main.cpp.obj"
   "CMakeFiles/celle.dir/Cell.cpp.obj"
   "CMakeFiles/celle.dir/Formula.cpp.obj"
@@ -7,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/celle.dir/FormulaMean.cpp.obj"
   "CMakeFiles/celle.dir/FormulaMin.cpp.obj"
   "CMakeFiles/celle.dir/FormulaSum.cpp.obj"
+  "CMakeFiles/celle.dir/moc_mainwindow.cpp.obj"
   "celle.pdb"
   "celle.exe"
   "celle.exe.manifest"

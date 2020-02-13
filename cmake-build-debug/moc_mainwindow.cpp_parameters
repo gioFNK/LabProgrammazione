@@ -1,0 +1,6 @@
+-IC:/Users/giofn/OneDrive/Desktop/celle
+-IC:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug
+-DWIN32
+-o
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/moc_mainwindow.cpp
+C:/Users/giofn/OneDrive/Desktop/celle/mainwindow.h

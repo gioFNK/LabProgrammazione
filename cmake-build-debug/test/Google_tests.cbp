@@ -5,7 +5,7 @@
 		<Option title="Google_tests"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googlemock\;CMake Files\test\lib\googlemock\cmake\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\Qt\;CMake Files\..\..\..\..\..\Qt\5.9.9\;CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\;CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\;CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\;CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5\;CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googlemock\;CMake Files\test\lib\googlemock\cmake\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\Qt\;CMake Files\..\..\..\..\..\Qt\5.14.1\;CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\;CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\;CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\;CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5\;CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test"/>
@@ -17,8 +17,8 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Google_Tests_run">
-				<Option output="C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Google_Tests_run.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="runAllTests">
+				<Option output="C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/runAllTests.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -35,14 +35,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Google_Tests_run"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runAllTests"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Google_Tests_run/fast">
-				<Option output="C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Google_Tests_run.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="runAllTests/fast">
+				<Option output="C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/runAllTests.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -59,7 +59,7 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 Google_Tests_run/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runAllTests/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
@@ -267,7 +267,7 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/test/FormuleTest.h">
-			<Option target="Google_Tests_run"/>
+			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/test/lib/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
@@ -282,7 +282,7 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/test/runAllTests.cpp">
-			<Option target="Google_Tests_run"/>
+			<Option target="runAllTests"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -317,77 +317,101 @@
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/test/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5/Qt5Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.9.9/winrt_x86_msvc2017/lib/cmake/Qt5Gui/Qt5Gui_QWinRTIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.9.9\winrt_x86_msvc2017\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/celle/../../../../../Qt/5.14.1/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\mingw73_32\lib\cmake\Qt5Gui\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

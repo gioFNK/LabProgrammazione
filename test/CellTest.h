@@ -34,7 +34,7 @@ TEST_F(CellTest,CellConstructor ){
 
 
 TEST_F(CellTest,Attach){
-cell->attach(formulaSum);
+    cell->attach(formulaSum);
     ASSERT_TRUE(formulaSum->searchCell(cell));
     ASSERT_TRUE(cell->searchFormula(formulaSum));
 }
@@ -50,7 +50,7 @@ TEST_F(CellTest,Notify){
 
     cell->attach(formulaSum);
     ASSERT_EQ(0, dynamic_cast<FormulaSum*>(formulaSum)->getSum());
-    cell->setValue(10); //Il metodo setValue invoca Notify quindi si testa funzionamento del metodo Notify chiamando setValue
+    cell->setValue(10); //Il metodo setValue invoca Notify quindi si testa funzionamento di quest'ultimo
     ASSERT_EQ(10, dynamic_cast<FormulaSum*>(formulaSum)->getSum());
 }
 

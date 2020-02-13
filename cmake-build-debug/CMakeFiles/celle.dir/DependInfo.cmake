@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/giofn/OneDrive/Desktop/celle/FormulaSum.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/FormulaSum.cpp.obj"
   "C:/Users/giofn/OneDrive/Desktop/celle/Table.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/Table.cpp.obj"
   "C:/Users/giofn/OneDrive/Desktop/celle/main.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/main.cpp.obj"
+  "C:/Users/giofn/OneDrive/Desktop/celle/mainwindow.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/mainwindow.cpp.obj"
+  "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/moc_mainwindow.cpp" "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir/moc_mainwindow.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,12 +26,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "C:/Qt/5.9.9/winrt_x86_msvc2017/include"
-  "C:/Qt/5.9.9/winrt_x86_msvc2017/include/QtCore"
-  "C:/Qt/5.9.9/winrt_x86_msvc2017/./mkspecs/winrt-x86-msvc2017"
-  "C:/Qt/5.9.9/winrt_x86_msvc2017/include/QtWidgets"
-  "C:/Qt/5.9.9/winrt_x86_msvc2017/include/QtGui"
-  "C:/Qt/5.9.9/winrt_x86_msvc2017/include/QtANGLE"
+  "."
+  "../"
+  "C:/Qt/5.14.1/mingw73_32/include"
+  "C:/Qt/5.14.1/mingw73_32/include/QtCore"
+  "C:/Qt/5.14.1/mingw73_32/./mkspecs/win32-g++"
+  "C:/Qt/5.14.1/mingw73_32/include/QtWidgets"
+  "C:/Qt/5.14.1/mingw73_32/include/QtGui"
+  "C:/Qt/5.14.1/mingw73_32/include/QtANGLE"
   )
 
 # Targets to which this target links.

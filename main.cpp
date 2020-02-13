@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include "FormulaMax.h"
 #include "Table.h"
 #include "FormulaMean.h"
@@ -33,17 +33,14 @@ int main() {
     std::cout<<x<<"\n";
     return 0;
 }
+*/
 
-/*
 #include <QApplication>
-#include <QPushButton>
-
+#include "mainwindow.h"
 int main(int argc, char** argv)
 {
     QApplication app(argc, argv);
-
-    QPushButton button("Hello world !");
-    button.show();
-
+    MainWindow mainWindow;
+    mainWindow.show();
     return app.exec();
-}*/
+}

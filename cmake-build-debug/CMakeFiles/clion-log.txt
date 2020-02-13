@@ -1,4 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\giofn\OneDrive\Desktop\celle
+"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -std=gnu++11 -G "CodeBlocks - MinGW Makefiles" C:\Users\giofn\OneDrive\Desktop\celle
+-- Found PythonInterp: C:/Users/giofn/Anaconda3/python.exe (found version "3.6.5") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug

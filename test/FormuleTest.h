@@ -30,13 +30,13 @@ protected:
         table->setCellValue(20.5,0,1);
         table->setCellValue(30,0,2);
         table->getCell(0,0)->attach(formulaSum);
-        table->getCell(0,0)->attach(formulaMin); // Cella in posizione 0,0 iscritta a Sum e Min
+        table->getCell(0,0)->attach(formulaMin); // cella in posizione 0,0 iscritta a ForumulaSum e ForumulaMin
         table->getCell(0,1)->attach(formulaMin);
         table->getCell(0,1)->attach(formulaMax);
-        table->getCell(0,1)->attach(formulaMean);// Cella in posizione 0,1 iscritta a Min, Max e Mean
+        table->getCell(0,1)->attach(formulaMean);// cella in posizione 0,1 iscritta a ForumulaMin, ForumulaMax e ForumulaMean
         table->getCell(0,2)->attach(formulaSum);
         table->getCell(0,2)->attach(formulaMin);
-        table->getCell(0,2)->attach(formulaMean); // Cella in posizione 0,2 iscritta a Sum, Min e Mean
+        table->getCell(0,2)->attach(formulaMean); // cella in posizione 0,2 iscritta a ForumulaSum, ForumulaMin e ForumulaMean
 
     }
 

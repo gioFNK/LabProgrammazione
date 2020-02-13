@@ -169,17 +169,17 @@ celle/fast:
 .PHONY : celle/fast
 
 #=============================================================================
-# Target rules for targets named Google_Tests_run
+# Target rules for targets named runAllTests
 
 # Build rule for target.
-Google_Tests_run: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Google_Tests_run
-.PHONY : Google_Tests_run
+runAllTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 runAllTests
+.PHONY : runAllTests
 
 # fast build rule for target.
-Google_Tests_run/fast:
-	$(MAKE) -f test\CMakeFiles\Google_Tests_run.dir\build.make test/CMakeFiles/Google_Tests_run.dir/build
-.PHONY : Google_Tests_run/fast
+runAllTests/fast:
+	$(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/build
+.PHONY : runAllTests/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -449,6 +449,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainwindow.obj: mainwindow.cpp.obj
+
+.PHONY : mainwindow.obj
+
+# target to build an object file
+mainwindow.cpp.obj:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/mainwindow.cpp.obj
+.PHONY : mainwindow.cpp.obj
+
+mainwindow.i: mainwindow.cpp.i
+
+.PHONY : mainwindow.i
+
+# target to preprocess a source file
+mainwindow.cpp.i:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/mainwindow.cpp.i
+.PHONY : mainwindow.cpp.i
+
+mainwindow.s: mainwindow.cpp.s
+
+.PHONY : mainwindow.s
+
+# target to generate assembly for a file
+mainwindow.cpp.s:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/mainwindow.cpp.s
+.PHONY : mainwindow.cpp.s
+
+moc_mainwindow.obj: moc_mainwindow.cpp.obj
+
+.PHONY : moc_mainwindow.obj
+
+# target to build an object file
+moc_mainwindow.cpp.obj:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/moc_mainwindow.cpp.obj
+.PHONY : moc_mainwindow.cpp.obj
+
+moc_mainwindow.i: moc_mainwindow.cpp.i
+
+.PHONY : moc_mainwindow.i
+
+# target to preprocess a source file
+moc_mainwindow.cpp.i:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/moc_mainwindow.cpp.i
+.PHONY : moc_mainwindow.cpp.i
+
+moc_mainwindow.s: moc_mainwindow.cpp.s
+
+.PHONY : moc_mainwindow.s
+
+# target to generate assembly for a file
+moc_mainwindow.cpp.s:
+	$(MAKE) -f CMakeFiles\celle.dir\build.make CMakeFiles/celle.dir/moc_mainwindow.cpp.s
+.PHONY : moc_mainwindow.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -462,7 +516,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... list_install_components
 	@echo ... install/strip
-	@echo ... Google_Tests_run
+	@echo ... runAllTests
 	@echo ... gmock_main
 	@echo ... gmock
 	@echo ... gtest
@@ -491,6 +545,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mainwindow.obj
+	@echo ... mainwindow.i
+	@echo ... mainwindow.s
+	@echo ... moc_mainwindow.obj
+	@echo ... moc_mainwindow.i
+	@echo ... moc_mainwindow.s
 .PHONY : help
 
 

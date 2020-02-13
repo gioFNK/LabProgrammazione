@@ -1,5 +1,5 @@
  project(Google_tests)
  add_subdirectory(lib)
  include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
- add_executable(Google_Tests_run runAllTests.cpp FormuleTest.h FormuleTest.h)
- target_link_libraries(Google_Tests_run gtest gtest_main)
+ add_executable(runAllTests runAllTests.cpp FormuleTest.h FormuleTest.h)
+ target_link_libraries(runAllTests gtest gtest_main)

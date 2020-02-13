@@ -56,10 +56,32 @@ include CMakeFiles/celle.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/celle.dir/flags.make
 
+ui_mainwindow.h: ../mainwindow.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_mainwindow.h"
+	C:\Qt\5.14.1\mingw73_32\bin\uic.exe -o C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/ui_mainwindow.h C:/Users/giofn/OneDrive/Desktop/celle/mainwindow.ui
+
+moc_mainwindow.cpp: ../mainwindow.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating moc_mainwindow.cpp"
+	C:\Qt\5.14.1\mingw73_32\bin\moc.exe @C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/moc_mainwindow.cpp_parameters
+
+CMakeFiles/celle.dir/mainwindow.cpp.obj: CMakeFiles/celle.dir/flags.make
+CMakeFiles/celle.dir/mainwindow.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
+CMakeFiles/celle.dir/mainwindow.cpp.obj: ../mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/celle.dir/mainwindow.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\mainwindow.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\mainwindow.cpp
+
+CMakeFiles/celle.dir/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/celle.dir/mainwindow.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\giofn\OneDrive\Desktop\celle\mainwindow.cpp > CMakeFiles\celle.dir\mainwindow.cpp.i
+
+CMakeFiles/celle.dir/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/celle.dir/mainwindow.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\celle\mainwindow.cpp -o CMakeFiles\celle.dir\mainwindow.cpp.s
+
 CMakeFiles/celle.dir/main.cpp.obj: CMakeFiles/celle.dir/flags.make
 CMakeFiles/celle.dir/main.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
 CMakeFiles/celle.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/celle.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/celle.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\main.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\main.cpp
 
 CMakeFiles/celle.dir/main.cpp.i: cmake_force
@@ -73,7 +95,7 @@ CMakeFiles/celle.dir/main.cpp.s: cmake_force
 CMakeFiles/celle.dir/Cell.cpp.obj: CMakeFiles/celle.dir/flags.make
 CMakeFiles/celle.dir/Cell.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
 CMakeFiles/celle.dir/Cell.cpp.obj: ../Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/celle.dir/Cell.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/celle.dir/Cell.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\Cell.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\Cell.cpp
 
 CMakeFiles/celle.dir/Cell.cpp.i: cmake_force
@@ -87,7 +109,7 @@ CMakeFiles/celle.dir/Cell.cpp.s: cmake_force
 CMakeFiles/celle.dir/Formula.cpp.obj: CMakeFiles/celle.dir/flags.make
 CMakeFiles/celle.dir/Formula.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
 CMakeFiles/celle.dir/Formula.cpp.obj: ../Formula.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/celle.dir/Formula.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/celle.dir/Formula.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\Formula.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\Formula.cpp
 
 CMakeFiles/celle.dir/Formula.cpp.i: cmake_force
@@ -101,7 +123,7 @@ CMakeFiles/celle.dir/Formula.cpp.s: cmake_force
 CMakeFiles/celle.dir/FormulaMax.cpp.obj: CMakeFiles/celle.dir/flags.make
 CMakeFiles/celle.dir/FormulaMax.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
 CMakeFiles/celle.dir/FormulaMax.cpp.obj: ../FormulaMax.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/celle.dir/FormulaMax.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/celle.dir/FormulaMax.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\FormulaMax.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\FormulaMax.cpp
 
 CMakeFiles/celle.dir/FormulaMax.cpp.i: cmake_force
@@ -115,7 +137,7 @@ CMakeFiles/celle.dir/FormulaMax.cpp.s: cmake_force
 CMakeFiles/celle.dir/Table.cpp.obj: CMakeFiles/celle.dir/flags.make
 CMakeFiles/celle.dir/Table.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
 CMakeFiles/celle.dir/Table.cpp.obj: ../Table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/celle.dir/Table.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/celle.dir/Table.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\Table.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\Table.cpp
 
 CMakeFiles/celle.dir/Table.cpp.i: cmake_force
@@ -129,7 +151,7 @@ CMakeFiles/celle.dir/Table.cpp.s: cmake_force
 CMakeFiles/celle.dir/FormulaMean.cpp.obj: CMakeFiles/celle.dir/flags.make
 CMakeFiles/celle.dir/FormulaMean.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
 CMakeFiles/celle.dir/FormulaMean.cpp.obj: ../FormulaMean.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/celle.dir/FormulaMean.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/celle.dir/FormulaMean.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\FormulaMean.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\FormulaMean.cpp
 
 CMakeFiles/celle.dir/FormulaMean.cpp.i: cmake_force
@@ -143,7 +165,7 @@ CMakeFiles/celle.dir/FormulaMean.cpp.s: cmake_force
 CMakeFiles/celle.dir/FormulaMin.cpp.obj: CMakeFiles/celle.dir/flags.make
 CMakeFiles/celle.dir/FormulaMin.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
 CMakeFiles/celle.dir/FormulaMin.cpp.obj: ../FormulaMin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/celle.dir/FormulaMin.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/celle.dir/FormulaMin.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\FormulaMin.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\FormulaMin.cpp
 
 CMakeFiles/celle.dir/FormulaMin.cpp.i: cmake_force
@@ -157,7 +179,7 @@ CMakeFiles/celle.dir/FormulaMin.cpp.s: cmake_force
 CMakeFiles/celle.dir/FormulaSum.cpp.obj: CMakeFiles/celle.dir/flags.make
 CMakeFiles/celle.dir/FormulaSum.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
 CMakeFiles/celle.dir/FormulaSum.cpp.obj: ../FormulaSum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/celle.dir/FormulaSum.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/celle.dir/FormulaSum.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\FormulaSum.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\FormulaSum.cpp
 
 CMakeFiles/celle.dir/FormulaSum.cpp.i: cmake_force
@@ -168,8 +190,23 @@ CMakeFiles/celle.dir/FormulaSum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/celle.dir/FormulaSum.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\celle\FormulaSum.cpp -o CMakeFiles\celle.dir\FormulaSum.cpp.s
 
+CMakeFiles/celle.dir/moc_mainwindow.cpp.obj: CMakeFiles/celle.dir/flags.make
+CMakeFiles/celle.dir/moc_mainwindow.cpp.obj: CMakeFiles/celle.dir/includes_CXX.rsp
+CMakeFiles/celle.dir/moc_mainwindow.cpp.obj: moc_mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/celle.dir/moc_mainwindow.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\celle.dir\moc_mainwindow.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\moc_mainwindow.cpp
+
+CMakeFiles/celle.dir/moc_mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/celle.dir/moc_mainwindow.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\moc_mainwindow.cpp > CMakeFiles\celle.dir\moc_mainwindow.cpp.i
+
+CMakeFiles/celle.dir/moc_mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/celle.dir/moc_mainwindow.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\moc_mainwindow.cpp -o CMakeFiles\celle.dir\moc_mainwindow.cpp.s
+
 # Object files for target celle
 celle_OBJECTS = \
+"CMakeFiles/celle.dir/mainwindow.cpp.obj" \
 "CMakeFiles/celle.dir/main.cpp.obj" \
 "CMakeFiles/celle.dir/Cell.cpp.obj" \
 "CMakeFiles/celle.dir/Formula.cpp.obj" \
@@ -177,11 +214,13 @@ celle_OBJECTS = \
 "CMakeFiles/celle.dir/Table.cpp.obj" \
 "CMakeFiles/celle.dir/FormulaMean.cpp.obj" \
 "CMakeFiles/celle.dir/FormulaMin.cpp.obj" \
-"CMakeFiles/celle.dir/FormulaSum.cpp.obj"
+"CMakeFiles/celle.dir/FormulaSum.cpp.obj" \
+"CMakeFiles/celle.dir/moc_mainwindow.cpp.obj"
 
 # External object files for target celle
 celle_EXTERNAL_OBJECTS =
 
+celle.exe: CMakeFiles/celle.dir/mainwindow.cpp.obj
 celle.exe: CMakeFiles/celle.dir/main.cpp.obj
 celle.exe: CMakeFiles/celle.dir/Cell.cpp.obj
 celle.exe: CMakeFiles/celle.dir/Formula.cpp.obj
@@ -190,14 +229,15 @@ celle.exe: CMakeFiles/celle.dir/Table.cpp.obj
 celle.exe: CMakeFiles/celle.dir/FormulaMean.cpp.obj
 celle.exe: CMakeFiles/celle.dir/FormulaMin.cpp.obj
 celle.exe: CMakeFiles/celle.dir/FormulaSum.cpp.obj
+celle.exe: CMakeFiles/celle.dir/moc_mainwindow.cpp.obj
 celle.exe: CMakeFiles/celle.dir/build.make
-celle.exe: C:/Qt/5.9.9/winrt_x86_msvc2017/lib/Qt5Widgetsd.lib
-celle.exe: C:/Qt/5.9.9/winrt_x86_msvc2017/lib/Qt5Guid.lib
-celle.exe: C:/Qt/5.9.9/winrt_x86_msvc2017/lib/Qt5Cored.lib
+celle.exe: C:/Qt/5.14.1/mingw73_32/lib/libQt5Widgets.a
+celle.exe: C:/Qt/5.14.1/mingw73_32/lib/libQt5Gui.a
+celle.exe: C:/Qt/5.14.1/mingw73_32/lib/libQt5Core.a
 celle.exe: CMakeFiles/celle.dir/linklibs.rsp
 celle.exe: CMakeFiles/celle.dir/objects1.rsp
 celle.exe: CMakeFiles/celle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable celle.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable celle.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\celle.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,7 +249,8 @@ CMakeFiles/celle.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\celle.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/celle.dir/clean
 
-CMakeFiles/celle.dir/depend:
+CMakeFiles/celle.dir/depend: ui_mainwindow.h
+CMakeFiles/celle.dir/depend: moc_mainwindow.cpp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\giofn\OneDrive\Desktop\celle C:\Users\giofn\OneDrive\Desktop\celle C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug C:\Users\giofn\OneDrive\Desktop\celle\cmake-build-debug\CMakeFiles\celle.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/celle.dir/depend
 
