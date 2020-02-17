@@ -57,9 +57,22 @@ include CMakeFiles/core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/core.dir/flags.make
 
+CMakeFiles/core.dir/mainwindow.cpp.o: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/mainwindow.cpp.o: ../mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/mainwindow.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/mainwindow.cpp
+
+CMakeFiles/core.dir/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giofnk/CLionProjects/originale/LabProgrammazione-master/mainwindow.cpp > CMakeFiles/core.dir/mainwindow.cpp.i
+
+CMakeFiles/core.dir/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giofnk/CLionProjects/originale/LabProgrammazione-master/mainwindow.cpp -o CMakeFiles/core.dir/mainwindow.cpp.s
+
 CMakeFiles/core.dir/main.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/main.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/main.cpp
 
 CMakeFiles/core.dir/main.cpp.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/core.dir/main.cpp.s: cmake_force
 
 CMakeFiles/core.dir/Cell.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/Cell.cpp.o: ../Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/Cell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/Cell.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/Cell.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/Cell.cpp
 
 CMakeFiles/core.dir/Cell.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/core.dir/Cell.cpp.s: cmake_force
 
 CMakeFiles/core.dir/Formula.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/Formula.cpp.o: ../Formula.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/Formula.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/Formula.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/Formula.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/Formula.cpp
 
 CMakeFiles/core.dir/Formula.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/core.dir/Formula.cpp.s: cmake_force
 
 CMakeFiles/core.dir/FormulaMax.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/FormulaMax.cpp.o: ../FormulaMax.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/FormulaMax.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/FormulaMax.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/FormulaMax.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMax.cpp
 
 CMakeFiles/core.dir/FormulaMax.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/core.dir/FormulaMax.cpp.s: cmake_force
 
 CMakeFiles/core.dir/Table.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/Table.cpp.o: ../Table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/core.dir/Table.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core.dir/Table.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/Table.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/Table.cpp
 
 CMakeFiles/core.dir/Table.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/core.dir/Table.cpp.s: cmake_force
 
 CMakeFiles/core.dir/FormulaMean.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/FormulaMean.cpp.o: ../FormulaMean.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/core.dir/FormulaMean.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/core.dir/FormulaMean.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/FormulaMean.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMean.cpp
 
 CMakeFiles/core.dir/FormulaMean.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/core.dir/FormulaMean.cpp.s: cmake_force
 
 CMakeFiles/core.dir/FormulaMin.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/FormulaMin.cpp.o: ../FormulaMin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/core.dir/FormulaMin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/core.dir/FormulaMin.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/FormulaMin.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMin.cpp
 
 CMakeFiles/core.dir/FormulaMin.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/core.dir/FormulaMin.cpp.s: cmake_force
 
 CMakeFiles/core.dir/FormulaSum.cpp.o: CMakeFiles/core.dir/flags.make
 CMakeFiles/core.dir/FormulaSum.cpp.o: ../FormulaSum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/core.dir/FormulaSum.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/core.dir/FormulaSum.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/FormulaSum.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaSum.cpp
 
 CMakeFiles/core.dir/FormulaSum.cpp.i: cmake_force
@@ -163,6 +176,7 @@ CMakeFiles/core.dir/FormulaSum.cpp.s: cmake_force
 
 # Object files for target core
 core_OBJECTS = \
+"CMakeFiles/core.dir/mainwindow.cpp.o" \
 "CMakeFiles/core.dir/main.cpp.o" \
 "CMakeFiles/core.dir/Cell.cpp.o" \
 "CMakeFiles/core.dir/Formula.cpp.o" \
@@ -175,6 +189,7 @@ core_OBJECTS = \
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
+libcore.a: CMakeFiles/core.dir/mainwindow.cpp.o
 libcore.a: CMakeFiles/core.dir/main.cpp.o
 libcore.a: CMakeFiles/core.dir/Cell.cpp.o
 libcore.a: CMakeFiles/core.dir/Formula.cpp.o
@@ -185,7 +200,7 @@ libcore.a: CMakeFiles/core.dir/FormulaMin.cpp.o
 libcore.a: CMakeFiles/core.dir/FormulaSum.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 

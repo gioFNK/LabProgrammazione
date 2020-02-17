@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 /usr/bin/ar qc ../../../lib/libgtest_maind.a  CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 /usr/bin/ranlib ../../../lib/libgtest_maind.a
-=======
-C:\MinGW\bin\ar.exe qc ..\..\..\lib\libgtest_maind.a  CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
-C:\MinGW\bin\ranlib.exe ..\..\..\lib\libgtest_maind.a
->>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2

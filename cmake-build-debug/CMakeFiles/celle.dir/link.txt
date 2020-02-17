@@ -1,7 +1,1 @@
-<<<<<<< HEAD
-/usr/bin/c++  -std=c++11 -g   CMakeFiles/celle.dir/main.cpp.o CMakeFiles/celle.dir/Cell.cpp.o CMakeFiles/celle.dir/Formula.cpp.o CMakeFiles/celle.dir/FormulaMax.cpp.o CMakeFiles/celle.dir/Table.cpp.o CMakeFiles/celle.dir/FormulaMean.cpp.o CMakeFiles/celle.dir/FormulaMin.cpp.o CMakeFiles/celle.dir/FormulaSum.cpp.o  -o celle libcore.a 
-=======
-"C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\celle.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\celle.dir/objects.a @CMakeFiles\celle.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -std=c++11 -g   -Wl,--whole-archive CMakeFiles\celle.dir/objects.a -Wl,--no-whole-archive  -o celle.exe -Wl,--out-implib,libcelle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\celle.dir\linklibs.rsp
->>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
+/usr/bin/c++  -std=c++11 -g   CMakeFiles/celle.dir/mainwindow.cpp.o CMakeFiles/celle.dir/main.cpp.o CMakeFiles/celle.dir/Cell.cpp.o CMakeFiles/celle.dir/Formula.cpp.o CMakeFiles/celle.dir/FormulaMax.cpp.o CMakeFiles/celle.dir/Table.cpp.o CMakeFiles/celle.dir/FormulaMean.cpp.o CMakeFiles/celle.dir/FormulaMin.cpp.o CMakeFiles/celle.dir/FormulaSum.cpp.o CMakeFiles/celle.dir/moc_mainwindow.cpp.o  -o celle /usr/lib64/libQt5Widgets.so.5.13.2 /usr/lib64/libQt5Gui.so.5.13.2 /usr/lib64/libQt5Core.so.5.13.2 

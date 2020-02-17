@@ -14,10 +14,8 @@ void FormulaMin::update() {
         }
     }
 }
-<<<<<<< HEAD
 float FormulaMin::calculate() {
     return min;
 }
-=======
->>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
+
 

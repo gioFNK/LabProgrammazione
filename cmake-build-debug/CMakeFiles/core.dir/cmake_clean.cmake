@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/FormulaSum.cpp.o"
   "CMakeFiles/core.dir/Table.cpp.o"
   "CMakeFiles/core.dir/main.cpp.o"
+  "CMakeFiles/core.dir/mainwindow.cpp.o"
   "libcore.a"
   "libcore.pdb"
 )

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaSum.cpp" "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/core.dir/FormulaSum.cpp.o"
   "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Table.cpp" "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/core.dir/Table.cpp.o"
   "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/main.cpp" "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/core.dir/main.cpp.o"
+  "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/mainwindow.cpp" "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/core.dir/mainwindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

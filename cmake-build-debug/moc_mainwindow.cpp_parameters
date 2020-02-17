@@ -1,14 +1,5 @@
-<<<<<<< HEAD
 -I/home/giofnk/CLionProjects/originale/LabProgrammazione-master
 -I/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug
 -o
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/moc_mainwindow.cpp
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/mainwindow.h
-=======
--IC:/Users/giofn/OneDrive/Desktop/celle
--IC:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug
--DWIN32
--o
-C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/moc_mainwindow.cpp
-C:/Users/giofn/OneDrive/Desktop/celle/mainwindow.h
->>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2

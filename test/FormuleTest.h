@@ -18,10 +18,7 @@ class FormuleTest: public testing::Test{
 
 
 protected:
-
-<<<<<<< HEAD
     virtual void SetUp();
-=======
     virtual void SetUp(){
         table=new Table(10,10);
         formulaSum=new FormulaSum;
@@ -42,7 +39,6 @@ protected:
         table->getCell(0,2)->attach(formulaMean); // cella in posizione 0,2 iscritta a ForumulaSum, ForumulaMin e ForumulaMean
 
     }
->>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 
     Formula* formulaSum;
     Formula* formulaMax;
@@ -55,7 +51,6 @@ protected:
 
 TEST_F(FormuleTest, FormulaMax){
 
-<<<<<<< HEAD
 ASSERT_EQ(dynamic_cast<FormulaMax*>(formulaMax)->calculate(),20.5);
 }
 
@@ -69,7 +64,6 @@ ASSERT_EQ(dynamic_cast<FormulaMean*>(formulaMean)->calculate(),((20.5+30)/2));
 
 TEST_F(FormuleTest,FormulaSum){
 ASSERT_EQ(dynamic_cast<FormulaSum*>(formulaSum)->calculate(),40.5);
-=======
 ASSERT_EQ(dynamic_cast<FormulaMax*>(formulaMax)->getMax(),20.5);
 }
 
@@ -83,7 +77,6 @@ ASSERT_EQ(dynamic_cast<FormulaMean*>(formulaMean)->getMean(),((20.5+30)/2));
 
 TEST_F(FormuleTest,FormulaSum){
 ASSERT_EQ(dynamic_cast<FormulaSum*>(formulaSum)->getSum(),40.5);
->>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 }
 
 TEST_F(FormuleTest, DeleteFormula){
