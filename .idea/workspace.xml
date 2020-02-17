@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="celle" targetName="gtest" />
+      <config projectName="celle" targetName="celle" />
+      <config projectName="celle" targetName="gmock" />
+      <config projectName="celle" targetName="gtest_main" />
+      <config projectName="celle" targetName="core" />
+      <config projectName="celle" targetName="gmock_main" />
+      <config projectName="celle" targetName="runAllTests" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-std=gnu++11" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b79d67a7-56cc-4c63-84c2-2f5f937fef78" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-runAllTests" />
+  </component>
+  <component name="ProjectId" id="1Vsg22JUSw2Pb0onb2k1a8pRAYl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="CMake Application.celle">
+    <configuration name="CellTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="celle" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="CellTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormuleTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="celle" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="FormuleTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="celle" RUN_TARGET_NAME="Google_Tests_run" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="celle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/test/runAllTests.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="core" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runAllTests" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-lgtest" PASS_PARENT_ENVS_2="true" PROJECT_NAME="celle" TARGET_NAME="runAllTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="celle" RUN_TARGET_NAME="runAllTests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google Test.CellTest" />
+      <item itemvalue="Google Test.FormuleTest" />
+      <item itemvalue="CMake Application.celle" />
+      <item itemvalue="CMake Application.core" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="CMake Application.runAllTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.FormuleTest" />
+        <item itemvalue="Google Test.CellTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b79d67a7-56cc-4c63-84c2-2f5f937fef78" name="Default Changelist" comment="" />
+      <created>1578047005728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578047005728</updated>
+      <workItem from="1578047007366" duration="2184000" />
+      <workItem from="1578409724182" duration="2595000" />
+      <workItem from="1578412457113" duration="26000" />
+      <workItem from="1578412526187" duration="64000" />
+      <workItem from="1578471991928" duration="1091000" />
+      <workItem from="1578651495574" duration="2609000" />
+      <workItem from="1578937485223" duration="786000" />
+      <workItem from="1579010027783" duration="160000" />
+      <workItem from="1579186748132" duration="3874000" />
+      <workItem from="1579253209279" duration="1942000" />
+      <workItem from="1579255198519" duration="2098000" />
+      <workItem from="1579257329915" duration="552000" />
+      <workItem from="1579258115664" duration="56000" />
+      <workItem from="1579258398754" duration="127000" />
+      <workItem from="1579258609213" duration="1655000" />
+      <workItem from="1579814723602" duration="48000" />
+      <workItem from="1580556769029" duration="8591000" />
+      <workItem from="1581584807261" duration="1239000" />
+      <workItem from="1581604278213" duration="2863000" />
+      <workItem from="1581607199777" duration="8000" />
+      <workItem from="1581694798865" duration="1215000" />
+      <workItem from="1581765116702" duration="2755000" />
+      <workItem from="1581786148370" duration="1522000" />
+      <workItem from="1581951197530" duration="837000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="127" width="1022" height="737" key="SettingsEditor" timestamp="1581951350080">
+      <screen x="0" y="27" width="1920" height="930" />
+    </state>
+    <state x="449" y="127" width="1022" height="737" key="SettingsEditor/0.27.1920.930@0.27.1920.930" timestamp="1581951350080" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1581767194559">
+      <screen x="0" y="27" width="1920" height="930" />
+    </state>
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.27.1920.930@0.27.1920.930" timestamp="1581767194559" />
+  </component>
+</project>

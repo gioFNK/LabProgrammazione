@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -g   CMakeFiles/runAllTests.dir/runAllTests.cpp.o CMakeFiles/runAllTests.dir/FormuleTest.cpp.o  -o runAllTests ../libcore.a 

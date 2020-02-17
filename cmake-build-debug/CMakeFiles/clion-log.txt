@@ -1,0 +1,8 @@
+/home/giofnk/Documenti/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -std=gnu++11 -G "CodeBlocks - Unix Makefiles" /home/giofnk/CLionProjects/originale/LabProgrammazione-master
+CMake Error at CMakeLists.txt:33 (qt5_wrap_ui):
+  Unknown CMake command "qt5_wrap_ui".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/CMakeError.log".
