@@ -15,7 +15,10 @@ void FormulaMean::update(){
         }
         mean=sum/cells.size();
     }
+<<<<<<< HEAD
 }
 float FormulaMean::calculate(){
     return mean;
+=======
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 }

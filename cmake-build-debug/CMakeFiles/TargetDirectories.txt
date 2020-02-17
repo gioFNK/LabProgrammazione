@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/install/strip.dir
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/install/local.dir
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/core.dir
@@ -35,3 +36,41 @@
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/CMakeFiles/install.dir
+=======
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/install/local.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/install.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/celle.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/CMakeFiles/install/strip.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/CMakeFiles/list_install_components.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/CMakeFiles/runAllTests.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/CMakeFiles/install/local.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/CMakeFiles/install.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/CMakeFiles/install/strip.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/CMakeFiles/install/local.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/CMakeFiles/install.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/CMakeFiles/edit_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/CMakeFiles/rebuild_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/CMakeFiles/list_install_components.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/CMakeFiles/install/strip.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googlemock/CMakeFiles/install/local.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googlemock/CMakeFiles/install.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googlemock/CMakeFiles/edit_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googlemock/CMakeFiles/gmock.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googlemock/CMakeFiles/rebuild_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googlemock/CMakeFiles/list_install_components.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googlemock/CMakeFiles/install/strip.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/CMakeFiles/list_install_components.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/CMakeFiles/install/local.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/CMakeFiles/install.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/CMakeFiles/edit_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir
+C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/CMakeFiles/install/strip.dir
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2

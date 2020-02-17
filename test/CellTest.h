@@ -49,9 +49,15 @@ TEST_F(CellTest,Detach){
 TEST_F(CellTest,Notify){
 
     cell->attach(formulaSum);
+<<<<<<< HEAD
     ASSERT_EQ(0, dynamic_cast<FormulaSum*>(formulaSum)->calculate());
     cell->setValue(10); //Il metodo setValue invoca Notify quindi si testa funzionamento di quest'ultimo
     ASSERT_EQ(10, dynamic_cast<FormulaSum*>(formulaSum)->calculate());
+=======
+    ASSERT_EQ(0, dynamic_cast<FormulaSum*>(formulaSum)->getSum());
+    cell->setValue(10); //Il metodo setValue invoca Notify quindi si testa funzionamento di quest'ultimo
+    ASSERT_EQ(10, dynamic_cast<FormulaSum*>(formulaSum)->getSum());
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 }
 
 TEST_F(CellTest, DuplicateFormule){

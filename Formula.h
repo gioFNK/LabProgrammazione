@@ -18,7 +18,11 @@ public:
 
     virtual ~Formula(){
         for (auto itr = cells.begin(); itr != cells.end(); itr++){
+<<<<<<< HEAD
             Subject* cell= dynamic_cast<Subject*>(*itr);
+=======
+            Cell* cell= dynamic_cast<Cell*>(*itr);
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
             if(cell)
                 cell->detach(this);
         }
@@ -27,9 +31,13 @@ public:
     void subscribe(Subject* cell) override ;
     void unsubscribe(Subject* cell)  override ;
 
+<<<<<<< HEAD
     virtual float calculate()=0;
 
     bool searchCell(Subject * cell);
+=======
+    testing::AssertionResult searchCell(Subject* cell);
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 
 protected:
     std::list<Subject*> cells;

@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 ../test/lib/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
 ../test/lib/googletest/include/gtest/gtest/internal/gtest-death-test-internal.h
@@ -660,3 +661,5 @@ src/gtest-test-part.cc
 src/gtest-typed-test.cc
 /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/src/src/gtest-typed-test.cc
 
+=======
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2

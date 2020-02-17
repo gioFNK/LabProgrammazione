@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 libdir=/usr/local/lib64
 includedir=/usr/local/include
+=======
+libdir=C:/Program Files (x86)/celle/lib
+includedir=C:/Program Files (x86)/celle/include
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 
 Name: gtest
 Description: GoogleTest (without main() function)
 Version: 1.10.0
 URL: https://github.com/google/googletest
+<<<<<<< HEAD
 Libs: -L${libdir} -lgtest -lpthread
 Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1
+=======
+Libs: -L${libdir} -lgtest 
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=0
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2

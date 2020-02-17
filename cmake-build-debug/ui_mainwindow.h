@@ -1,7 +1,11 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
+<<<<<<< HEAD
 ** Created by: Qt User Interface Compiler version 5.12.5
+=======
+** Created by: Qt User Interface Compiler version 5.14.1
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -53,8 +57,13 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
+<<<<<<< HEAD
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         label->setText(QApplication::translate("MainWindow", "Test", nullptr));
+=======
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "Test", nullptr));
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
     } // retranslateUi
 
 };

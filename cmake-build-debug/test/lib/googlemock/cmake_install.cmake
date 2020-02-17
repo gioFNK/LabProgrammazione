@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/usr/local")
+=======
+# Install script for directory: C:/Users/giofn/OneDrive/Desktop/celle/test/lib/googlemock
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/celle")
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,17 +35,21 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+<<<<<<< HEAD
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
+=======
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/include/")
 endif()
 
@@ -55,11 +67,34 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/generated/gmock_main.pc")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/giofn/OneDrive/Desktop/celle/test/lib/googlemock/include/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/lib/libgmockd.a")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/lib/libgmock_maind.a")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/generated/gmock.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/generated/gmock_main.pc")
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/cmake_install.cmake")
+=======
+  include("C:/Users/giofn/OneDrive/Desktop/celle/cmake-build-debug/test/lib/googletest/cmake_install.cmake")
+>>>>>>> f30c9146d9f684c0c6f37a940c4dc569e3d9f6e2
 
 endif()
 
