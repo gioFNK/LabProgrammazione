@@ -19,7 +19,6 @@ public:
     virtual ~Formula(){
         for (auto itr = cells.begin(); itr != cells.end(); itr++){
             Subject* cell= dynamic_cast<Subject*>(*itr);
-            Cell* cell= dynamic_cast<Cell*>(*itr);
             if(cell)
                 cell->detach(this);
         }

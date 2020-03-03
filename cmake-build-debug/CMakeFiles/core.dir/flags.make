@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -g   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug -I/home/giofnk/CLionProjects/originale/LabProgrammazione-master 
+CXX_INCLUDES = -I"/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" -I"/home/giofnk/CLionProjects/LabProgrammazione-master (copia)" 
 

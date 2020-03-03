@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGT
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include -isystem /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest 
+CXX_INCLUDES = -isystem "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include" -isystem "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest" 
 

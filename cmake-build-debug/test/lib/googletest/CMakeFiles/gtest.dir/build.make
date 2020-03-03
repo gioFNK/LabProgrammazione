@@ -43,10 +43,10 @@ RM = /home/giofnk/Documenti/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giofnk/CLionProjects/originale/LabProgrammazione-master
+CMAKE_SOURCE_DIR = "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include test/lib/googletest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include test/lib/googletest/CMakeFiles/gtest.dir/flags.make
 
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: test/lib/googletest/CMakeFiles/gtest.dir/flags.make
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ../test/lib/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/src/gtest-all.cc"
 
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/src/gtest-all.cc" > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/src/gtest-all.cc" -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -80,9 +80,9 @@ gtest_EXTERNAL_OBJECTS =
 lib/libgtestd.a: test/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 lib/libgtestd.a: test/lib/googletest/CMakeFiles/gtest.dir/build.make
 lib/libgtestd.a: test/lib/googletest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgtestd.a"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libgtestd.a"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/lib/googletest/CMakeFiles/gtest.dir/build: lib/libgtestd.a
@@ -90,10 +90,10 @@ test/lib/googletest/CMakeFiles/gtest.dir/build: lib/libgtestd.a
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/build
 
 test/lib/googletest/CMakeFiles/gtest.dir/clean:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/clean
 
 test/lib/googletest/CMakeFiles/gtest.dir/depend:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/giofnk/CLionProjects/originale/LabProgrammazione-master /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/lib/googletest/CMakeFiles/gtest.dir/depend
 

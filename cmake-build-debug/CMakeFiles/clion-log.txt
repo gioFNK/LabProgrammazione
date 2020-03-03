@@ -1,4 +1,4 @@
-/home/giofnk/Documenti/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/giofnk/CLionProjects/originale/LabProgrammazione-master
+/home/giofnk/Documenti/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"
 -- The C compiler identification is GNU 9.2.1
 -- The CXX compiler identification is GNU 9.2.1
 -- Check for working C compiler: /usr/bin/cc
@@ -25,4 +25,4 @@
 -- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug
+-- Build files have been written to: /home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug

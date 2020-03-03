@@ -5,47 +5,47 @@
 		<Option title="celle"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googlemock\;CMake Files\test\lib\googlemock\cmake\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googlemock\;CMake Files\test\lib\googlemock\cmake\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="core">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -54,21 +54,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 core"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="core/fast">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -77,39 +77,31 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 core/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="celle">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/celle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/celle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_WIDGETS_LIB"/>
-					<Add option="-DQT_GUI_LIB"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master"/>
-					<Add directory="/usr/include/qt5"/>
-					<Add directory="/usr/include/qt5/QtCore"/>
-					<Add directory="/usr/lib64/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/qt5/QtWidgets"/>
-					<Add directory="/usr/include/qt5/QtGui"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -118,29 +110,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 celle"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 celle"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="celle/fast">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/celle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/celle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_WIDGETS_LIB"/>
-					<Add option="-DQT_GUI_LIB"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master"/>
-					<Add directory="/usr/include/qt5"/>
-					<Add directory="/usr/include/qt5/QtCore"/>
-					<Add directory="/usr/lib64/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/qt5/QtWidgets"/>
-					<Add directory="/usr/include/qt5/QtGui"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -149,51 +133,51 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 celle/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 celle/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="runAllTests">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/runAllTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/runAllTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -202,21 +186,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runAllTests"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runAllTests"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="runAllTests/fast">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/runAllTests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/runAllTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -225,23 +209,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runAllTests/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runAllTests/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -250,23 +234,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -275,23 +259,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -300,23 +284,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -325,21 +309,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -348,21 +332,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -371,21 +355,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -394,21 +378,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest"/>
+				<Option output="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/include"/>
-					<Add directory="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/include"/>
+					<Add directory="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
@@ -417,309 +401,140 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/giofnk/CLionProjects/LabProgrammazione-master\ (copia)/cmake-build-debug/test/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Cell.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/Cell.cpp">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Cell.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/Cell.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Formula.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/Formula.cpp">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Formula.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/Formula.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMax.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/FormulaMax.cpp">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMax.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/FormulaMax.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMean.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/FormulaMean.cpp">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMean.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/FormulaMean.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMin.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/FormulaMin.cpp">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaMin.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/FormulaMin.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaSum.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/FormulaSum.cpp">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/FormulaSum.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/FormulaSum.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Observer.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/Observer.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Subject.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/Subject.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Table.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/Table.cpp">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/Table.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/Table.h">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/moc_mainwindow.cpp">
-			<Option target="celle"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/moc_mainwindow.cpp.rule">
-			<Option target="celle"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/ui_mainwindow.h">
-			<Option target="celle"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/main.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/main.cpp">
 			<Option target="core"/>
 			<Option target="celle"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/mainwindow.cpp">
-			<Option target="core"/>
-			<Option target="celle"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/mainwindow.h">
-			<Option target="celle"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/mainwindow.ui">
-			<Option target="celle"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/FormuleTest.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/CellTest.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/FormuleTest.h">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/CellTest.h">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/src/gmock-all.cc">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/FormuleTest.cpp">
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/FormuleTest.h">
+			<Option target="runAllTests"/>
+		</Unit>
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/src/gmock_main.cc">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/src/gtest-all.cc">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/src/gtest_main.cc">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/runAllTests.cpp">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/runAllTests.cpp">
 			<Option target="runAllTests"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/CMakeLists.txt">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/CMakeLists.txt">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/CMakeLists.txt">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/CMakeLists.txt">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\test\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\test\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/CMakeLists.txt">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\googletest\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/cmake/Config.cmake.in">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5/Qt5Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/giofnk/CLionProjects/originale/LabProgrammazione-master/../../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

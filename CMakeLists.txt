@@ -1,52 +1,33 @@
 cmake_minimum_required(VERSION 3.10)
 project(celle)
 add_subdirectory(test)
+
+find_package( Qt5Core REQUIRED )
+find_package( Qt5Widgets REQUIRED )
+find_package( Qt5Gui REQUIRED )
+
 add_compile_options(-std=c++11)
+set(CMAKE_CXX_FLAGS "-Wall -fPIC -std=c++11")
 set(CMAKE_CXX_FLAGS "-std=c++11" CACHE STRING "compile flags" FORCE)
-
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-set(CMAKE_PREFIX_PATH "C:/Qt/5.14.1/mingw73_32/lib/cmake/Qt5")
-set(Qt5_DIR "C:/Qt/5.14.1/mingw73_32/lib/cmake/Qt5")
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
+SET (CMAKE_POSITION_INDEPENDENT_CODE ON)
 
-find_package(Qt5 COMPONENTS Core Widgets Gui REQUIRED)
+set(SOURCE_FILES
+    /home/giofnk/Celle/ui_mainwindow.h
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui Cell.cpp Cell.h Subject.h Observer.h Table.cpp Table.h Formula.h Formula.cpp FormulaMax.cpp FormulaMax.h FormulaMin.cpp FormulaMin.h FormulaSum.cpp FormulaSum.h FormulaMean.cpp FormulaMean.h)
 
+add_executable(celle ${SOURCE_FILES} Formula.cpp)
 
-set(project_headers mainwindow.h)
-set(project_sources
-        mainwindow.cpp
-        main.cpp
-        Observer.h
-        Subject.h
-        Cell.cpp
-        Cell.h
-        Formula.h
-        Formula.cpp
-        FormulaMax.h
-        FormulaMax.cpp
-        Table.cpp
-        Table.h
-        FormulaMean.h
-        FormulaMean.cpp
-        FormulaMin.h
-        FormulaMin.cpp
-        FormulaSum.h
-        FormulaSum.cpp)
+target_compile_options(celle PRIVATE -fPIC)
 
-set(project_ui
-        mainwindow.ui)
+include_directories(${Qt5Widgets_INCLUDE_DIRS})
+include_directories(${Qt5Core_INCLUDE_DIRS})
+include_directories(${Qt5Gui_INCLUDE_DIRS})
 
-qt5_wrap_ui(project_headers_moc ${project_ui})
-qt5_wrap_cpp(project_sources_moc ${project_headers})
-add_executable(celle ${project_sources} ${project_headers} ${project_headers_moc} ${project_sources_moc})
-add_library(core ${project_sources})
+add_library(core ${SOURCE_FILES} )
 
-
-
-target_link_libraries(celle
-        PUBLIC
-        Qt5::Core
-        Qt5::Widgets
-        Qt5::Gui)
-
+target_link_libraries(celle core ${Qt5Widgets_LIBRARIES} ${Qt5Core_LIBRARIES} ${Qt5Gui_LIBRARIES} )

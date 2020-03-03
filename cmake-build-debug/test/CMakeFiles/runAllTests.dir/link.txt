@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++11 -g   CMakeFiles/runAllTests.dir/runAllTests.cpp.o CMakeFiles/runAllTests.dir/FormuleTest.cpp.o  -o runAllTests ../libcore.a 
+/usr/bin/c++  -std=c++11 -g   CMakeFiles/runAllTests.dir/runAllTests.cpp.o CMakeFiles/runAllTests.dir/FormuleTest.cpp.o CMakeFiles/runAllTests.dir/CellTest.cpp.o  -o runAllTests ../lib/libgtestd.a ../lib/libgtest_maind.a ../libcore.a ../lib/libgtestd.a -lpthread 

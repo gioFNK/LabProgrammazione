@@ -48,10 +48,10 @@ RM = /home/giofnk/Documenti/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giofnk/CLionProjects/originale/LabProgrammazione-master
+CMAKE_SOURCE_DIR = "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -487,63 +487,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/celle.dir/build.make CMakeFiles/celle.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-
-.PHONY : mainwindow.o
-
-# target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/mainwindow.cpp.o
-	$(MAKE) -f CMakeFiles/celle.dir/build.make CMakeFiles/celle.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
-
-mainwindow.i: mainwindow.cpp.i
-
-.PHONY : mainwindow.i
-
-# target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/mainwindow.cpp.i
-	$(MAKE) -f CMakeFiles/celle.dir/build.make CMakeFiles/celle.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
-
-mainwindow.s: mainwindow.cpp.s
-
-.PHONY : mainwindow.s
-
-# target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/mainwindow.cpp.s
-	$(MAKE) -f CMakeFiles/celle.dir/build.make CMakeFiles/celle.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
-
-moc_mainwindow.o: moc_mainwindow.cpp.o
-
-.PHONY : moc_mainwindow.o
-
-# target to build an object file
-moc_mainwindow.cpp.o:
-	$(MAKE) -f CMakeFiles/celle.dir/build.make CMakeFiles/celle.dir/moc_mainwindow.cpp.o
-.PHONY : moc_mainwindow.cpp.o
-
-moc_mainwindow.i: moc_mainwindow.cpp.i
-
-.PHONY : moc_mainwindow.i
-
-# target to preprocess a source file
-moc_mainwindow.cpp.i:
-	$(MAKE) -f CMakeFiles/celle.dir/build.make CMakeFiles/celle.dir/moc_mainwindow.cpp.i
-.PHONY : moc_mainwindow.cpp.i
-
-moc_mainwindow.s: moc_mainwindow.cpp.s
-
-.PHONY : moc_mainwindow.s
-
-# target to generate assembly for a file
-moc_mainwindow.cpp.s:
-	$(MAKE) -f CMakeFiles/celle.dir/build.make CMakeFiles/celle.dir/moc_mainwindow.cpp.s
-.PHONY : moc_mainwindow.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -587,12 +530,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
-	@echo "... moc_mainwindow.o"
-	@echo "... moc_mainwindow.i"
-	@echo "... moc_mainwindow.s"
 .PHONY : help
 
 

@@ -48,10 +48,10 @@ RM = /home/giofnk/Documenti/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giofnk/CLionProjects/originale/LabProgrammazione-master
+CMAKE_SOURCE_DIR = "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/CMakeFiles/progress.marks
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles 0
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/CMakeFiles/progress.marks"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/runAllTests.dir/rule:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runAllTests.dir/rule
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runAllTests.dir/rule
 .PHONY : test/CMakeFiles/runAllTests.dir/rule
 
 # Convenience name for target.
@@ -168,8 +168,35 @@ runAllTests: test/CMakeFiles/runAllTests.dir/rule
 
 # fast build rule for target.
 runAllTests/fast:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
 .PHONY : runAllTests/fast
+
+CellTest.o: CellTest.cpp.o
+
+.PHONY : CellTest.o
+
+# target to build an object file
+CellTest.cpp.o:
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/CellTest.cpp.o
+.PHONY : CellTest.cpp.o
+
+CellTest.i: CellTest.cpp.i
+
+.PHONY : CellTest.i
+
+# target to preprocess a source file
+CellTest.cpp.i:
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/CellTest.cpp.i
+.PHONY : CellTest.cpp.i
+
+CellTest.s: CellTest.cpp.s
+
+.PHONY : CellTest.s
+
+# target to generate assembly for a file
+CellTest.cpp.s:
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/CellTest.cpp.s
+.PHONY : CellTest.cpp.s
 
 FormuleTest.o: FormuleTest.cpp.o
 
@@ -177,7 +204,7 @@ FormuleTest.o: FormuleTest.cpp.o
 
 # target to build an object file
 FormuleTest.cpp.o:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.o
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.o
 .PHONY : FormuleTest.cpp.o
 
 FormuleTest.i: FormuleTest.cpp.i
@@ -186,7 +213,7 @@ FormuleTest.i: FormuleTest.cpp.i
 
 # target to preprocess a source file
 FormuleTest.cpp.i:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.i
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.i
 .PHONY : FormuleTest.cpp.i
 
 FormuleTest.s: FormuleTest.cpp.s
@@ -195,7 +222,7 @@ FormuleTest.s: FormuleTest.cpp.s
 
 # target to generate assembly for a file
 FormuleTest.cpp.s:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.s
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.s
 .PHONY : FormuleTest.cpp.s
 
 runAllTests.o: runAllTests.cpp.o
@@ -204,7 +231,7 @@ runAllTests.o: runAllTests.cpp.o
 
 # target to build an object file
 runAllTests.cpp.o:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o
 .PHONY : runAllTests.cpp.o
 
 runAllTests.i: runAllTests.cpp.i
@@ -213,7 +240,7 @@ runAllTests.i: runAllTests.cpp.i
 
 # target to preprocess a source file
 runAllTests.cpp.i:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i
 .PHONY : runAllTests.cpp.i
 
 runAllTests.s: runAllTests.cpp.s
@@ -222,7 +249,7 @@ runAllTests.s: runAllTests.cpp.s
 
 # target to generate assembly for a file
 runAllTests.cpp.s:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s
 .PHONY : runAllTests.cpp.s
 
 # Help Target
@@ -238,6 +265,9 @@ help:
 	@echo "... runAllTests"
 	@echo "... list_install_components"
 	@echo "... install/local"
+	@echo "... CellTest.o"
+	@echo "... CellTest.i"
+	@echo "... CellTest.s"
 	@echo "... FormuleTest.o"
 	@echo "... FormuleTest.i"
 	@echo "... FormuleTest.s"
@@ -255,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

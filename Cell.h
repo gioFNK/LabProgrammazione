@@ -34,7 +34,7 @@ public:
         notify();
     }
 
-    std::list<Formula*> getFormule(){
+    std::list<Observer*> getFormule(){
         return formule;
     }
 
@@ -43,7 +43,7 @@ public:
 
 private:
     float value;
-    std::list<Formula*> formule;
+    std::list<Observer*> formule;
 
 };
 

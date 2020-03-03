@@ -43,10 +43,10 @@ RM = /home/giofnk/Documenti/CLion-2019.3.3/clion-2019.3.3/bin/cmake/linux/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giofnk/CLionProjects/originale/LabProgrammazione-master
+CMAKE_SOURCE_DIR = "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/runAllTests.dir/depend.make
@@ -59,45 +59,63 @@ include test/CMakeFiles/runAllTests.dir/flags.make
 
 test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o: test/CMakeFiles/runAllTests.dir/flags.make
 test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o: ../test/runAllTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTests.dir/runAllTests.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/runAllTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTests.dir/runAllTests.cpp.o -c "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/runAllTests.cpp"
 
 test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/runAllTests.cpp.i"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/runAllTests.cpp > CMakeFiles/runAllTests.dir/runAllTests.cpp.i
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/runAllTests.cpp" > CMakeFiles/runAllTests.dir/runAllTests.cpp.i
 
 test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/runAllTests.cpp.s"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/runAllTests.cpp -o CMakeFiles/runAllTests.dir/runAllTests.cpp.s
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/runAllTests.cpp" -o CMakeFiles/runAllTests.dir/runAllTests.cpp.s
 
 test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.o: test/CMakeFiles/runAllTests.dir/flags.make
 test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.o: ../test/FormuleTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.o"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTests.dir/FormuleTest.cpp.o -c /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/FormuleTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.o"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTests.dir/FormuleTest.cpp.o -c "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/FormuleTest.cpp"
 
 test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/FormuleTest.cpp.i"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/FormuleTest.cpp > CMakeFiles/runAllTests.dir/FormuleTest.cpp.i
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/FormuleTest.cpp" > CMakeFiles/runAllTests.dir/FormuleTest.cpp.i
 
 test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/FormuleTest.cpp.s"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/FormuleTest.cpp -o CMakeFiles/runAllTests.dir/FormuleTest.cpp.s
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/FormuleTest.cpp" -o CMakeFiles/runAllTests.dir/FormuleTest.cpp.s
+
+test/CMakeFiles/runAllTests.dir/CellTest.cpp.o: test/CMakeFiles/runAllTests.dir/flags.make
+test/CMakeFiles/runAllTests.dir/CellTest.cpp.o: ../test/CellTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/runAllTests.dir/CellTest.cpp.o"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTests.dir/CellTest.cpp.o -c "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/CellTest.cpp"
+
+test/CMakeFiles/runAllTests.dir/CellTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/CellTest.cpp.i"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/CellTest.cpp" > CMakeFiles/runAllTests.dir/CellTest.cpp.i
+
+test/CMakeFiles/runAllTests.dir/CellTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/CellTest.cpp.s"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/CellTest.cpp" -o CMakeFiles/runAllTests.dir/CellTest.cpp.s
 
 # Object files for target runAllTests
 runAllTests_OBJECTS = \
 "CMakeFiles/runAllTests.dir/runAllTests.cpp.o" \
-"CMakeFiles/runAllTests.dir/FormuleTest.cpp.o"
+"CMakeFiles/runAllTests.dir/FormuleTest.cpp.o" \
+"CMakeFiles/runAllTests.dir/CellTest.cpp.o"
 
 # External object files for target runAllTests
 runAllTests_EXTERNAL_OBJECTS =
 
 test/runAllTests: test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o
 test/runAllTests: test/CMakeFiles/runAllTests.dir/FormuleTest.cpp.o
+test/runAllTests: test/CMakeFiles/runAllTests.dir/CellTest.cpp.o
 test/runAllTests: test/CMakeFiles/runAllTests.dir/build.make
+test/runAllTests: lib/libgtestd.a
+test/runAllTests: lib/libgtest_maind.a
 test/runAllTests: libcore.a
+test/runAllTests: lib/libgtestd.a
 test/runAllTests: test/CMakeFiles/runAllTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable runAllTests"
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runAllTests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable runAllTests"
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runAllTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/runAllTests.dir/build: test/runAllTests
@@ -105,10 +123,10 @@ test/CMakeFiles/runAllTests.dir/build: test/runAllTests
 .PHONY : test/CMakeFiles/runAllTests.dir/build
 
 test/CMakeFiles/runAllTests.dir/clean:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/runAllTests.dir/cmake_clean.cmake
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" && $(CMAKE_COMMAND) -P CMakeFiles/runAllTests.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/runAllTests.dir/clean
 
 test/CMakeFiles/runAllTests.dir/depend:
-	cd /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/giofnk/CLionProjects/originale/LabProgrammazione-master /home/giofnk/CLionProjects/originale/LabProgrammazione-master/test /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test /home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/CMakeFiles/runAllTests.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/CMakeFiles/runAllTests.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/runAllTests.dir/depend
 

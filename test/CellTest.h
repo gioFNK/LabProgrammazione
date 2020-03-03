@@ -15,11 +15,7 @@ class CellTest: public testing::Test{
 
 protected:
 
-    virtual void SetUp(){
-        cell=new Cell;
-        formulaSum=new FormulaSum;
-    }
-
+    virtual void SetUp();
     Cell* cell;
     Formula* formulaSum;
 };

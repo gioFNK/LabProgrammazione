@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/test/lib/googlemock/src/gmock_main.cc" "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/test/lib/googlemock/src/gmock_main.cc" "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/giofnk/CLionProjects/originale/LabProgrammazione-master/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/giofnk/CLionProjects/LabProgrammazione-master (copia)/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
