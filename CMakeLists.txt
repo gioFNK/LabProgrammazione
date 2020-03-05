@@ -14,13 +14,14 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 SET (CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 set(SOURCE_FILES
-    /home/giofnk/Celle/ui_mainwindow.h
-    main.cpp
     mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui Cell.cpp Cell.h Subject.h Observer.h Table.cpp Table.h Formula.h Formula.cpp FormulaMax.cpp FormulaMax.h FormulaMin.cpp FormulaMin.h FormulaSum.cpp FormulaSum.h FormulaMean.cpp FormulaMean.h)
+    Cell.cpp Table.cpp Formula.cpp FormulaMax.cpp FormulaMin.cpp FormulaSum.cpp FormulaMean.cpp)
 
-add_executable(celle ${SOURCE_FILES} Formula.cpp)
+SET(CMAKE_AUTOMOC ON)
+SET(CMAKE_AUTOUIC ON)
+SET(CMAKE_AUTORCC ON)
+
+add_executable(celle ${SOURCE_FILES} main.cpp)
 
 target_compile_options(celle PRIVATE -fPIC)
 

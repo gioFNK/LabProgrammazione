@@ -6,7 +6,7 @@
 #define CELLE_TABLE_H
 
 #include "Cell.h"
-#include "Observer.h"
+//#include "Observer.h"
 #include <stdexcept>
 
 class Table {

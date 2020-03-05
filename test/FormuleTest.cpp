@@ -23,3 +23,20 @@ void FormuleTest::SetUp(){
     table->getCell(0,2)->attach(formulaMean); // cella in posizione 0,2 iscritta a ForumulaSum, ForumulaMin e ForumulaMean
 
 };
+
+TEST_F(FormuleTest, FormulaMax){
+
+ASSERT_EQ(dynamic_cast<FormulaMax*>(formulaMax)->calculate(),20.5);
+}
+
+TEST_F(FormuleTest,FormulaMin){
+ASSERT_EQ(dynamic_cast<FormulaMin*>(formulaMin)->calculate(),10.5);
+}
+
+TEST_F(FormuleTest,FormulaMean){
+ASSERT_EQ(dynamic_cast<FormulaMean*>(formulaMean)->calculate(),((20.5+30)/2));
+}
+
+TEST_F(FormuleTest,FormulaSum){
+ASSERT_EQ(dynamic_cast<FormulaSum*>(formulaSum)->calculate(),40.5);
+}
